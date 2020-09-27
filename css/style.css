@@ -1,0 +1,73 @@
+.header {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 0.3px 0px;
+    margin: 15px 0px;
+    background-color: orange;
+}
+
+#description {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -2em;
+}
+
+.full-background {
+    background-color: lightsteelblue;
+    padding: 20px 0px;
+}
+
+#form-group {
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 10px;
+
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-weight: 700;
+}
+
+#survey-form {
+    font-size: 22px;
+}
+
+.form-control {
+    display: block;
+    width: 90%;
+    height: 3.3rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin: 0 auto;
+}}
+
+#text-area {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+
+  .submit-button {
+    display: block;  
+    width: 90%;
+    height: 3.3rem;
+    margin: 0 auto;
+    border: 1px solid #ced4da;  
+    background-color: rgb(240, 203, 110);
+  }
+
+  button:hover {
+      background-color: orange;
+  }

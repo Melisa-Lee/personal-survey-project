@@ -1,0 +1,257 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Personal Survey</title>
+</head>
+
+<div class="full-background">
+<div class="header">  
+  <header class="header">
+    <h1 id="title"> PERSONAL SURVEY</h1>
+    <p id="description"> Get to know more about your Code Buddies!
+    </p>
+  </header>
+</div>
+
+<br>
+
+<div id="form-group">
+  <form id="survey-form">
+    <p id="name">
+      Name
+    </p>
+      <input
+      class="form-control"
+      id="name-label"
+      type="text"
+      name="name"
+      placeholder= "Enter your name"
+      required
+    /> <br>
+
+    <p id="email" for="email">
+      Email
+    </p>
+    <input
+      class="form-control"
+      id="email-label"
+      type="email"
+      name="email"
+      placeholder="Enter your email"
+      required
+    /> <br>
+
+    <p id="age" for="number">
+      Age
+    </p>
+    <input
+      class="form-control"
+      id="number-label"
+      type="number"
+      name="age"
+      placeholder="Age"
+      min="1"
+      max="99"
+      required
+    /> <br>
+
+    <p>
+      In which region are you residing at? 
+    </p> 
+    <select id="dropdown" name="role" class="form-control" required>
+      <option disabled selected value>Select residing region</option>
+      <option value="Asia Pacific">Asia Pacific</option>
+      <option value="Africa">Africa</option>
+      <option value="Europe">Asia Pacific</option>
+      <option value="America">America</option>
+      <option value="Oceania">Oceania</option>
+    </select> <br>
+
+    <p>
+      How far are you into coding?
+    </p> 
+    <label>
+      <span class="code-level">
+        <input type="radio" name="level" checked>
+        <span class="radio-control" value="beginner"></span>
+        <span class="radio-label">Beginner</span><br>
+      </span>
+    </label> 
+
+    <label>
+      <span class="code-level">
+        <input type="radio" name="level">
+        <span class="radio-control" value="intermediate"></span> 
+        <span class="radio-label">Intermediate</span><br>
+      </span>
+    </label> 
+
+    <label>
+      <span class="code-level">
+        <input type="radio" name="level">
+        <span class="radio-control" value="advanced"></span>
+        <span class="radio-label">Advanced</span><br>
+      </span>
+    </label> 
+      
+    <label>
+      <span class="code-level">
+        <input type="radio" name="level">
+        <span class="radio-control" value="professional-coder"></span>
+        <span class="radio-label">Professional Coder</span>
+      </span>
+    </label> 
+
+    <p>
+      Which language do you think is the hardest?
+      <span class="language">(Check all that apply)</span>
+    </p>
+    <label>
+      <input
+      name="language"
+      value="html"
+      type="checkbox"
+      class="language-checkbox" 
+      /> HTML
+    </label><br>
+
+    <label>
+      <input
+      name="language"
+      value="css"
+      type="checkbox"
+      class="language-checkbox"
+      /> CSS
+    </label><br>
+
+    <label>
+      <input
+      name="language"
+      value="java"
+      type="checkbox"
+      class="language-checkbox"
+      /> Java
+    </label><br>
+
+    <label>
+      <input
+      name="language"
+      value="javascript"
+      type="checkbox"
+      class="language-checkbox"
+      /> Javascript
+    </label><br>
+
+    <label>
+      <input
+      name="language"
+      value="python"
+      type="checkbox"
+      class="language-checkbox"
+      /> Python
+    </label><br>
+
+    <label>
+      <input
+      name="language"
+      value="ruby"
+      type="checkbox"
+      class="language-checkbox"
+      /> Ruby
+    </label><br>
+
+    <label>
+      <input
+      name="language"
+      value="none"
+      type="checkbox"
+      class="language-checkbox"
+      /> I know none of the above yet
+    </label><br>
+
+    <p>
+      What do you usually do while learning to code?
+      <span>(Check all that apply)</span>
+    </p>
+    <label>
+      <input
+      name="habit"
+      value="music"
+      type="checkbox"
+      class="habit-checkbox"
+      /> Listening to music
+    </label><br>
+
+    <label>
+      <input
+      name="habit"
+      value="laying"
+      type="checkbox"
+      class="habit-checkbox"
+      /> Laying down, get comfortable 
+    </label><br>
+
+    <label>
+      <input
+      name="habit"
+      value="lockup"
+      type="checkbox"
+      class="habit-checkbox"
+      /> Lock myself up in a room
+    </label><br>
+
+    <label>
+      <input
+      name="habit"
+      value="coffee"
+      type="checkbox"
+      class="habit-checkbox"
+      /> Drink coffee
+    </label><br>
+
+    <label>
+      <input
+      name="habit"
+      value="others"
+      type="checkbox"
+      class="habit-checkbox"
+      />Others
+    </label><br>
+
+    <div>
+      <textarea 
+        rows="6"
+        cols="60"
+        id="text-area"
+        name="Comments"
+        style="font-family: 'Titillium Web', sans-serif"
+        placeholder="Tie myself into a chair.. "
+      ></textarea>
+    </div>
+
+  <div>
+    <p>
+      Any other comments?
+    </p>
+    <textarea
+      id="text-area" 
+      name="comments" 
+      rows="6"
+      cols="60"
+      style="font-family: 'Titillium Web', sans-serif"
+      placeholder="Additional comments.."
+    ></textarea>
+
+    <br><br>
+
+  <div>    
+    <button type="submit" id="submit" class="submit-button">Submit
+      </button>
+  </div>
+
+</div>
+</form>
+
+</html>
